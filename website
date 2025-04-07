@@ -3,14 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ProBooks Bookkeeping</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <title>Enlighten Love Bookkeeping</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Pinyon+Script&family=Style+Script&family=Great+Vibes&family=Mr+Dafoe&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
+      color: #000;
       background-color: #f9fafb;
-      color: #333;
     }
 
     header {
@@ -20,19 +29,55 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      gap: 20px;
     }
 
     .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 50px;
+      margin-right: 12px;
+      display: block;
+    }
+
+    .logo span {
       font-size: 24px;
       font-weight: 600;
-      color: #2c3e50;
+      color: #000;
     }
 
     nav a {
       margin-left: 30px;
       text-decoration: none;
-      color: #555;
-      font-weight: 500;
+      color: #000;
+      font-weight: 350;
+      font-family: 'Inter', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.4em;
+    }
+
+    nav a:hover {
+      color: #000;
+      font-weight: 700;
+      font-family: 'Inter', sans-serif;
+    }
+
+    nav a:active {
+      color: #000;
+      font-weight: 700;
+      font-family: 'Inter', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
     }
 
     .hero {
@@ -42,16 +87,15 @@
     }
 
     .hero h1 {
-      font-size: 42px;
+      font-size: 2.5em;
       margin-bottom: 20px;
-      color: #2c3e50;
+      color: #000;
     }
 
     .hero p {
       font-size: 18px;
-      color: #555;
-      max-width: 600px;
-      margin: 0 auto;
+      font-weight: 300;
+      font-family: 'Inter', sans-serif;
     }
 
     .section {
@@ -63,12 +107,16 @@
     .section h2 {
       font-size: 28px;
       margin-bottom: 20px;
-      color: #2c3e50;
+      color: #000;
+      font-weight: 400;
+      font-family: 'Inter', sans-serif;
     }
 
     .section p {
-      font-size: 16px;
-      color: #555;
+      font-size: 18px;
+      font-weight: 300;
+      font-family: 'Inter', sans-serif;
+      color: #000;
       line-height: 1.6;
     }
 
@@ -83,17 +131,19 @@
 </head>
 <body>
   <header>
-    <div class="logo">ProBooks</div>
+    <div class="logo">
+      <img src="ENLIGHTEN LOVE _ Brand Logo Words and Icon (1).png" alt="Enlighten Love Logo">
+    </div>
     <nav>
       <a href="#services">Services</a>
-      <a href="#about">About</a>
+      <a href="#our-mission">Mission</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <section class="hero">
-    <h1>Bookkeeping Made Simple</h1>
-    <p>Professional, reliable, and tailored bookkeeping solutions to help you grow your business with clarity and confidence.</p>
+    <h1><span style="font-weight: 400;">with</span> <strong style="font-family: 'Dawning of a New Day', cursive; font-style: italic; font-size: 2.5em; position: relative; top: 0.05em;">love</strong> anything is possible</h1>
+    <p>Empowering your business with care, precision, and a heartfelt commitment to excellence<br>so you can focus on doing what you <strong><em>love</em></strong>.</p>
   </section>
 
   <section id="services" class="section">
@@ -103,23 +153,220 @@
     </p>
   </section>
 
-  <section id="about" class="section">
-    <h2>About Us</h2>
+  <section id="our-mission" class="section">
+    <h2>Our Mission</h2>
     <p>
-      At ProBooks, we believe in precision, privacy, and partnership. Our team brings years of experience in financial management and business support. We’re here to keep your books clean, so you can focus on what you do best.
+      As entrepreneurs ourselves, we understand the challenge of managing daily operations while ensuring every administrative detail receives the attention, precision, and care it deserves.
+    </p>
+    <p>
+      At Enlighten Love, we provide personalized bookkeeping and administrative services designed to support small businesses, entrepreneurs, and busy professionals. Our mission is to bring clarity, order, and peace of mind to your financial and operational workflows, so you can focus on what you do best.
+    </p>
+    <p>
+      With a heart-centered approach and an eye for detail, we handle everything from day-to-day bookkeeping, expense tracking, and invoicing to document organization, calendar management, and administrative support. Whether you're just starting out or scaling up, we tailor our services to meet your unique needs with care and precision.
+    </p>
+    <p>
+      Because we believe that when your business is nurtured with intention and integrity, it thrives.
+    </p>
+    <p>
+      With <strong style="font-family: 'Dawning of a New Day', cursive; font-style: italic; font-size: 2.5em; position: relative; top: 0.05em;">love</strong> anything is possible.
     </p>
   </section>
 
   <section id="contact" class="section">
-    <h2>Contact</h2>
+    <h2>Contact Us</h2>
     <p>
-      Ready to simplify your bookkeeping? Reach out at <strong>hello@probooks.com</strong> or call us at <strong>(123) 456-7890</strong>. We’d love to learn more about your business.
+      Whether you need support with bookkeeping, admin, systems, or simply bringing more ease and clarity to your business operations—email us at <strong>connect@enlighten.love</strong> We’d be honoured to support your journey.
     </p>
   </section>
 
   <footer>
-    &copy; 2025 ProBooks Bookkeeping. All rights reserved.
+    &copy; 2025 Enlighten Love Bookkeeping. All rights reserved.
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enlighten Love Bookkeeping</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Pinyon+Script&family=Style+Script&family=Great+Vibes&family=Mr+Dafoe&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
 
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      color: #000;
+      background-color: #f9fafb;
+    }
+
+    header {
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      gap: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 50px;
+      margin-right: 12px;
+      display: block;
+    }
+
+    .logo span {
+      font-size: 24px;
+      font-weight: 600;
+      color: #000;
+    }
+
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #000;
+      font-weight: 350;
+      font-family: 'Inter', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.4em;
+    }
+
+    nav a:hover {
+      color: #000;
+      font-weight: 700;
+      font-family: 'Inter', sans-serif;
+    }
+
+    nav a:active {
+      color: #000;
+      font-weight: 700;
+      font-family: 'Inter', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background: #e9f5f0;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #000;
+    }
+
+    .hero p {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #000;
+      font-weight: 400;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .section p {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: 'Inter', sans-serif;
+      color: #000;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #ffffff;
+      font-size: 14px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="ENLIGHTEN LOVE _ Brand Logo Words and Icon (1).png" alt="Enlighten Love Logo">
+    </div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#our-mission">Mission</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1><span style="font-weight: 400;">with</span> <strong style="font-family: 'Dawning of a New Day', cursive; font-style: italic; font-size: 2.5em; position: relative; top: 0.05em;">love</strong> anything is possible</h1>
+    <p>Empowering your business with care, precision, and a heartfelt commitment to excellence<br>so you can focus on doing what you <strong><em>love</em></strong>.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <p>
+      We offer full-service bookkeeping including income tracking, expense categorization, payroll support, tax-ready financials, and regular reporting. Whether you're a freelancer, small business, or startup—we have a plan that fits.
+    </p>
+  </section>
+
+  <section id="our-mission" class="section">
+    <h2>Our Mission</h2>
+    <p>
+      As entrepreneurs ourselves, we understand the challenge of managing daily operations while ensuring every administrative detail receives the attention, precision, and care it deserves.
+    </p>
+    <p>
+      At Enlighten Love, we provide personalized bookkeeping and administrative services designed to support small businesses, entrepreneurs, and busy professionals. Our mission is to bring clarity, order, and peace of mind to your financial and operational workflows, so you can focus on what you do best.
+    </p>
+    <p>
+      With a heart-centered approach and an eye for detail, we handle everything from day-to-day bookkeeping, expense tracking, and invoicing to document organization, calendar management, and administrative support. Whether you're just starting out or scaling up, we tailor our services to meet your unique needs with care and precision.
+    </p>
+    <p>
+      Because we believe that when your business is nurtured with intention and integrity, it thrives.
+    </p>
+    <p>
+      With <strong style="font-family: 'Dawning of a New Day', cursive; font-style: italic; font-size: 2.5em; position: relative; top: 0.05em;">love</strong> anything is possible.
+    </p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>
+      Whether you need support with bookkeeping, admin, systems, or simply bringing more ease and clarity to your business operations—email us at <strong>connect@enlighten.love</strong> We’d be honoured to support your journey.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Enlighten Love Bookkeeping. All rights reserved.
+  </footer>
+</body>
+</html>
