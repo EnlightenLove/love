@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>With Love</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #f8f8f8;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      height: 60px;
+      margin-left: 20px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 40px;
+    }
+    nav ul li {
+      display: inline;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .main-message {
+      margin-top: 100px;
+      font-size: 32px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="ENLIGHTEN LOVE _ Brand Logo Words and Icon (1).png" alt="Enlighten Love Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#service">SERVICE</a></li>
+        <li><a href="#ourstory">OUR STORY</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-message">
+    WITH LOVE ANYTHING IS POSSIBLE
+  </div>
+</body>
+</html>
